@@ -577,3 +577,5 @@ atomic = $(eval $1: $(call sentinel,$1) ; @:)$(call sentinel,$1): \
            $(call sentinel,$1))))
 
 ## for use see Graham-Cumming (2015) or examples in multiple_targets directory
+
+#
